@@ -1,4 +1,4 @@
-FROM java:8-jdk
+FROM openjdk
 RUN mkdir /app
 WORKDIR /app
 COPY target/Spring_project-0.0.1-SNAPSHOT.jar /app
